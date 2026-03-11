@@ -2,16 +2,13 @@
 
 > An unstandard C library.
 
-Just another libc wrapper, reimplementing the wheel? Yes.
+Just another libc wrapper; reimplementing the wheel? Yes.
 
-**unstdlib** is a basic C (un)standard libc wrapper designed to enhance productivity in C
-programming. By providing a robust set of abstractions and utilities, unstdlib aims to simplify common tasks and reduce
-boilerplate code, allowing developers to focus on writing efficient and maintainable code.
+**unstdlib** is a lightweight (un)standard wrapper around libc that adds small utilities, abstractions, and reimplementations commonly used in everyday C development.
 
 ## Table of Contents
 
 - [Getting started](#getting-started)
-- [Updates](#updates)
 - [Build](#build)
 - [Installation](#install)
 - [Tests](#tests)
@@ -21,19 +18,14 @@ boilerplate code, allowing developers to focus on writing efficient and maintain
 
 ## Getting started
 
-Currently in semi-active development, Stay tuned for upcoming releases :)
-
-## Updates
-
-#### Check [`devel`](https://github.com/X/unstdlib/tree/devel) for recent commits.
+Currently in semi-active development.
 
 ## Build
 
 To build unstdlib, follow these steps:
 
 1. **Ensure you have [CMake](https://cmake.org/) and [GCC](https://gcc.gnu.org/) installed.**
-2. **Open your terminal and navigate to the project directory.**
-3. **Run the following command:**
+2. **Run the following command:**
    ```shell
    chmod +x ./unstdlib.sh && ./unstdlib.sh -build
    ```
@@ -89,8 +81,7 @@ Changed your mind? Simply run:
 ## Compatibility
 
 **unstdlib** is based on GCC version 11. Ensure that you have [GCC GNU 11](https://gcc.gnu.org/) installed on your
-system to avoid any compatibility
-issues.
+system to avoid any compatibility issues.
 
 ## Contributing
 
