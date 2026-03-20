@@ -942,3 +942,7 @@ int unstdprintf_fctprintf(void (*out)(char character, void *arg), void *arg, con
     va_end(va);
     return ret;
 }
+
+void _unstdprintf__putchar(char character) {
+    //! NO IMPLEMENTATION
+}
